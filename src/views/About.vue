@@ -16,6 +16,9 @@
       <Value/>
     </div>
     <div>
+      <Team/>
+    </div>
+    <div>
       <Footer/>
     </div>
   </section>
