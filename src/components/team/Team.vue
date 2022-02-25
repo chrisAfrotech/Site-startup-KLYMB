@@ -27,7 +27,7 @@
                 <img src="@/assets/Afrotech.jpg" alt="stew" class="wl h-32 w-32 sm:h-48 sm:w-48 md:h-64 md:w-64 rounded-full object-cover">
             </div>
             <h1 class="text-black my-2">Tsanga Ulrich herve</h1>
-            <h1 class="text-blue-900 font-bold my-1">Data analyst, Dev-BackEnd</h1>
+            <h1 class="text-blue-900 font-bold my-1">Data Scientist, Dev-BackEnd</h1>
             <div class="socialNetwork flex justify-center">
                <ul class="md:items-center flex md:w-auto w-full">
                     <li class="md:mx-4  my-4">
@@ -69,7 +69,7 @@
                 <img src="@/assets/Afrotech.jpg" alt="stew" class="wl h-32 w-32 sm:h-48 sm:w-48 md:h-64 md:w-64 rounded-full object-cover">
             </div>
             <h1 class="text-black my-2">Kueppo Joseph</h1>
-            <h1 class="text-blue-900 font-bold my-1">S/N analyst</h1>
+            <h1 class="text-blue-900 font-bold my-1">Devops</h1>
             <div class="socialNetwork flex justify-center">
                <ul class="md:items-center flex md:w-auto w-full">
                     <li class="md:mx-4  my-4">

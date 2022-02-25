@@ -8,7 +8,7 @@
             </div>
         </div>
         <div class="QuickAcces">
-            <h1 class="pt-8 pb-4 text-yellow-500 font-bold text-xl text-white">Quick Access</h1>
+            <h1 class="pt-8 pb-4 text-yellow-500 font-bold text-xl">Quick Access</h1>
              <ul class="md:items-center text-white md:w-auto w-full">
                 <li class="md:mx-4  my-4">
                     <a href="#acceuil" class="text-md py-1  hover:text-xl hover:text-yellow-500 border-b-2 border-dashed">Home</a>
@@ -31,7 +31,7 @@
             </ul>
         </div>
         <div class="Contacts text-white">
-            <h1 class="pt-8 pb-4 text-yellow-500 font-bold text-xl text-white">Contact</h1>
+            <h1 class="pt-8 pb-4 text-yellow-500 font-bold text-xl ">Contact</h1>
             <ul class="md:items-center text-white md:w-auto w-full">
                 <li class="md:mx-4 my-4">
                     <span class=" text-yellow-500">Email </span> Klymb22@gmail.com <br>
@@ -51,7 +51,7 @@
             </ul>
         </div>
         <div class="SendMessages justify-center">
-            <h1 class="pt-8 pb-4 text-yellow-500 font-bold text-xl text-white">Send Message</h1>
+            <h1 class="pt-8 pb-4 text-yellow-500 font-bold text-xl ">Send Message</h1>
             <div class="prenom py-2"><span class="text-white "> Telephone </span><span class="text-red-500"> *</span> <br> <textarea class="focus:outline-none focus:ring-2 focus:yellow-700 focus:ring-offset-2 rounded-md h-8 text-md py-1 px-2" v-model="publiTitle" placeholder="contact"></textarea> </div>
             <div class=" message"><span class="text-white justify-items-start"> Request </span><span class="text-red-500"> *</span> <br> <textarea class="focus:outline-none focus:ring-2 focus:yellow-700 focus:ring-offset-2 rounded-md h-16 text-md py-1 px-2" v-model="publiContent" placeholder="Enter your request"></textarea></div>
              <button class="px-8 py-2 mt-2 text-sm text-white font-semibold rounded-lg border bg-blue-500 hover:bg-yellow-500 hover:shadow-lg shadow-yellow-3 00/50 hover:border-transparent focus:outline-none focus:ring-2 focus:yellow-700 ">Send</button>
