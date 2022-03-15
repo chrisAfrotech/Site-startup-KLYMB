@@ -14,7 +14,7 @@
                     <a href="#acceuil" class="text-md py-1  hover:text-xl hover:text-yellow-500 border-b-2 border-dashed">Home</a>
                 </li>
                  <li class="md:mx-4  my-4">
-                    <a href="#description" class="text-md  py-1 hover:text-xl hover:text-yellow-500 border-b-2 border-dashed">Description</a>
+                    <a href="#desklymb" class="text-md  py-1 hover:text-xl hover:text-yellow-500 border-b-2 border-dashed">Description</a>
                 </li>
                  <li class="md:mx-4  my-4">
                     <a href="#services" class="text-md  py-1 hover:text-xl hover:text-yellow-500 border-b-2 border-dashed">Services</a>
@@ -26,7 +26,7 @@
                     <a href="#" class="text-md  py-1 hover:text-xl hover:text-yellow-500 border-b-2 border-dashed">Projects</a>
                 </li> -->
                  <li class="md:mx-4  my-4">
-                    <a href="#footer" class="text-md  py-1 hover:text-xl hover:text-yellow-500 border-b-2 border-dashed">Contacts</a>
+                    <a href="#reqcontact" class="text-md  py-1 hover:text-xl hover:text-yellow-500 border-b-2 border-dashed">Contacts</a>
                 </li>
             </ul>
         </div>
@@ -50,11 +50,11 @@
                 </li>
             </ul>
         </div>
-        <div class="SendMessages justify-center">
+        <div id="reqcontact" class="SendMessages justify-center">
             <h1 class="pt-8 pb-4 text-yellow-500 font-bold text-xl ">Send Message</h1>
-            <div class="prenom py-2"><span class="text-white "> Telephone </span><span class="text-red-500"> *</span> <br> <textarea class="focus:outline-none focus:ring-2 focus:yellow-700 focus:ring-offset-2 rounded-md h-8 text-md py-1 px-2" v-model="publiTitle" placeholder="contact"></textarea> </div>
+            <div class="email py-2"><span class="text-white "> E-mail </span><span class="text-red-500"> *</span> <br> <textarea class="focus:outline-none focus:ring-2 focus:yellow-700 focus:ring-offset-2 rounded-md h-8 text-md py-1 px-2" v-model="publiTitle" placeholder="Enter email address"></textarea> </div>
             <div class=" message"><span class="text-white justify-items-start"> Request </span><span class="text-red-500"> *</span> <br> <textarea class="focus:outline-none focus:ring-2 focus:yellow-700 focus:ring-offset-2 rounded-md h-16 text-md py-1 px-2" v-model="publiContent" placeholder="Enter your request"></textarea></div>
-             <button class="px-8 py-2 mt-2 text-sm text-white font-semibold rounded-lg border bg-blue-500 hover:bg-yellow-500 hover:shadow-lg shadow-yellow-3 00/50 hover:border-transparent focus:outline-none focus:ring-2 focus:yellow-700 ">Send</button>
+             <button class="px-8 py-2 mt-2 text-sm text-white font-semibold rounded-lg border bg-blue-500 hover:bg-yellow-500 hover:shadow-lg shadow-yellow-3 hover:border-transparent focus:outline-none transition easy-out duration-300">Send</button>
         </div>
     </div>
     <div class="copyright justify-center text-sm text-white py-4 border-t border-inherit ">

@@ -1,5 +1,9 @@
 export default {
-
+  methods: {
+    scrollToTop () {
+      window.scrollTo(0, 0)
+    }
+  },
   setup () {
     const Links = [
       { name: 'Home', link: '#' },
@@ -11,5 +15,4 @@ export default {
     ]
     return (Links)
   }
-
 }

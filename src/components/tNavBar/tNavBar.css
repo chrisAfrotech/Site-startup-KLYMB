@@ -1,58 +1,40 @@
-.tNavBar {
-    width: 100%;
+.btn2::before {
+    content: "";
+    display: block;
     position: absolute;
-    top:0;
-    left:0;
-    display: flex;
-    font-size: 15px;
-    padding: 20px;
-    box-sizing: border-box;
+    /* /* bottom: 0; */
+    border-radius: 30px;
+    height:100%;
+    width: 0%; 
+    top: 0%;
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    z-index: -1;
+    transition: all 0.6s ease;
+    background-color: rgba(59, 130, 246);
+    /* transform: scalex(0);
+    transition: transform 0.4s ease-in-out; */
+    transform-origin: left;
 }
-.tNavBar > div {
-    width:33.33%
+.btn2:hover::before {
+   width:100%;
 }
-.tNavLogo {
-    font-size: 16px;
-    font-weight: bold;
-    display: flex;
-    justify-content: left;
-    align-items: center;
+
+a::after {
+    content: "";
+    display: block;
+    /* position: absolute; */
+    /* /* bottom: 0; */
+    height:2px;
+    /* width: 100%;  */
+    background-color: rgb(245 158 11);
+    transform: scalex(0);
+    transition: transform 0.4s ease-in-out;
+    transform-origin: left;
 }
-.tNavLogo > div {
-    margin-left: 25%;
+a:hover::after {
+    transform: scaleX(1);
 }
 
 
-.tNavLogo + div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.tNavLogo + div > div {
-    margin-left: 5px;
-    margin-right: 5px;
-}
-.tNavHome {
-    color:#000839;
-    font-weight: bold
-}
-.tNavLogo + div + div {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-}
-/* hover effects -----------*/
-
-.tNavLogo + div > div:hover {
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-/*---- responsive code zone -------------------------------- */
-@media screen and (max-width: 1035px) {
-    .tNavBar  {
-      height: 100px;
-      width: 100px;
-      border: solid red;
-    }
-}
+/**********btn animation***************/

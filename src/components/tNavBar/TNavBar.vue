@@ -1,20 +1,19 @@
 <template>
-    <div class ="tNavBar md:flex bg-blue-900">
-        <div class ="tNavLogo w-79 h-37 py-3.5 px-8 md:flex justify-between items-center">
-            <img src="@/assets/logoklymb.png" alt="stew" class="wl école-full h-full object-cover">
-        </div>
-
-        <ul class="md:flex md:items-center text-white md:static absolute md:w-auto w-full top-14 duration-700 ease-in" :class="[open ? 'left-0' : 'left[-100%]']">
-            <li class="md:mx-4" v-for="link in Links" v-bind:key="link">
-                <a :href="link.link" class="text-xl hover:text-xl hover:text-yellow-500">{{link.name}}</a>
-            </li>
+  <div id="navklymb" class ="bg-yellow-500 p-4 flex-row md:flex w-full justify-between items-center">
+      <div class ="tNavLogo  w-40 h-15 px-8 items-center">
+          <img src="@/assets/logoklymb.png" alt="stew" class="école-full h-full object-cover">
+      </div>
+      <div class="menu">
+        <ul class="md:flex md:items-center text-black md:w-auto w-full pt-4 md:mt-6  md:bg-white duration-700 ease-in" :class="[open ? 'left-0' : 'left[-100%]']">
+          <li class="md:mx-4" v-for="link in Links" v-bind:key="link">
+            <a :href="link.link" class="text-md hover:text-md p-2 hover:text-yellow-500 outline-none hover:border-yellow-500 ">{{link.name}}</a>
+          </li>
         </ul>
-        <div class="md:flex text-white py-8 px-16">
-            <div class="pl-8 px-4"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-            </div>Klymb22@gmail.com
-        </div>
-    </div> <br>
+      </div>
+      <div class="md:items-center px-8 text-white ">
+        <button class="btn2 w-16 h-8 text-sm text-white rounded-lg border bg-yellow-500 focus:outline-none focus:ring-2 focus:yellow-700 focus:ring-offset-2">Call</button>
+      </div>
+  </div> <br>
 </template>
 <style src="./tNavBar.css">
 </style>
@@ -31,37 +30,10 @@ export default {
       { name: 'Projects', link: '#' },
       { name: 'Contacts', link: '#' }
     ]
-
     return { Links, open }
   }
 }
-// function Menu(e){
-//     let list = document.querySelector('ui');
-
-//     e.name === 'menu' ? (e.name = "close",list.classList.add('top-[80px]'),list.classList.add('opacity-100')) :( e.name = "menu" , list.classList.remove('top-[80px]').list.classList.remove('opacity-100'))
-// }
 </script>
-
- <!-- <ul class="md:flex md:items-center md-px-0 px-6 md:pb-0 pb-10 md:static z-[-1] md:z-auto md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
-            <li class="md:mx-4 md:my-0 my-6">
-                <a href="#" class="text-xl text-white hover:text-yellow-500">Home</a>
-            </li>
-            <li class="md:mx-4 md:my-0 my-6">
-                <a href="#" class="text-xl text-white hover:text-yellow-500">Description</a>
-            </li>
-            <li class="md:mx-4 md:my-0 my-6">
-                <a href="#" class="text-xl text-white hover:text-yellow-500">Services</a>
-            </li>
-            <li class="md:mx-4 md:my-0 my-6">
-                <a href="#" class="text-xl text-white hover:text-yellow-500">Value</a>
-            </li>
-            <li class="md:mx-4 md:my-0 my-6">
-                <a href="#" class="text-xl text-white hover:text-yellow-500">Projects</a>
-            </li>
-            <li class="md:mx-4 md:my-0 my-6">
-                <a href="#" class="text-xl text-white hover:text-yellow-500">Custommers</a>
-            </li>
-        </ul> -->
 
 // menu
 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
